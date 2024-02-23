@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container{
+    display: flex;
+    justify-content: center;   
+}
+.faqContainer{
+    background-color:white;
+    width: 45vw;
+    border-radius: 20px;
+    box-shadow: 15px 15px 50px 10px lightblue;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #190064;
+    font-size: 50px;
+    margin-left: 50px;
+    
+}
+.faqs{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 70%;
+    border: 1px solid;
+    padding-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.ans{
+    margin-left: 20px;
+    width: 70%;
+    border: 1px solid;
+    padding-left: 40px;
+    font-family: "Poppins", sans-serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+}
+
+span{
+    position: absolute;
+    right: 580px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#q2{
+    margin-left: 42%;
+}
+#q3{
+    margin-left: 20%;
+}
+#q4{
+    margin-left: 29%;
+}
+p{
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 376px) and (max-height: 668px)
+{
+    .faqContainer{
+        width: 100%;
+    }
+    .faqs{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+        
+    }
+    .ans{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+
+    }
+    span{
+        position: absolute;
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 415px)  and (max-height: 897px)
+{
+    .faqContainer{
+        width: 100%;
+    }
+    .faqs{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+        
+    }
+    .ans{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+
+    }
+    span{
+        position: absolute;
+        right: 55px;
+    }
+}
+
+@media screen and (max-width: 431px) and (max-height: 933px)
+{
+    .faqContainer{
+        width: 100%;
+    }
+    .faqs{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+        
+    }
+    .ans{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+
+    }
+    span{
+        position: absolute;
+        right: 60px;
+    }
+   
+}
+
+@media screen and (min-width: 767px)  and (max-width: 770px) and (max-height: 1025px)
+{
+    .faqContainer{
+        width: 100%;
+    }
+    .faqs{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+        
+    }
+    .ans{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+
+    }
+    span{
+        position: absolute;
+        right: 150px;
+    }
+}
+
+@media screen and (min-width: 819px) and (max-width: 822px) and (max-height: 1181px)
+{
+    .faqContainer{
+        width: 100%;
+    }
+    .faqs{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+        
+    }
+    .ans{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+
+    }
+    span{
+        position: absolute;
+        right: 150px;
+    }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1026px) and (max-height: 1367px)
+{
+    .faqContainer{
+        width: 100%;
+    }
+    .faqs{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+        
+    }
+    .ans{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+
+    }
+    span{
+        position: absolute;
+        right: 190px;
+    }
+}
+
+@media screen and (min-width: 911px)  and (max-width: 913px) and (max-height: 1369px)
+{
+    .faqContainer{
+        width: 100%;
+    }
+    .faqs{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+        
+    }
+    .ans{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+
+    }
+    span{
+        position: absolute;
+        right: 160px;
+    }
+}
+@media screen and (min-width: 539px) and (max-width: 542px) and (max-height: 721px)
+{
+    .faqContainer{
+        width: 100%;
+    }
+    .faqs{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+        
+    }
+    .ans{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+
+    }
+    span{
+        position: absolute;
+        right: 90px;
+    }
+}
+@media screen and (min-width: 279px) and (max-width: 281px) and (max-height: 654px)
+{
+    .faqContainer{
+        width: 100%;
+    }
+    .faqs{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+        
+    }
+    .ans{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+
+    }
+    span{
+        position: absolute;
+        right: 30px;
+    }
+}
+@media screen and (min-width: 1023px) and (max-width: 1025px) and (max-height: 601px)
+{
+    .faqContainer{
+        width: 100%;
+    }
+    .faqs{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+        
+    }
+    .ans{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+
+    }
+    span{
+        position: absolute;
+        right: 180px;
+    }
+}
+@media screen and (min-width: 1279px) and (max-width: 1282px) and (max-height: 801px)
+{
+    .faqContainer{
+        width: 100%;
+    }
+    .faqs{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+        
+    }
+    .ans{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+
+    }
+    span{
+        position: absolute;
+        right: 240px;
+    }
+}
